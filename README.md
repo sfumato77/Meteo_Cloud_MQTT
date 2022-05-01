@@ -5,7 +5,7 @@ sends sensor data both to the site, www.wunderground.com, and to the local MQTT 
 
 
 ## Supported devices
-In general, if the station is supplied with `EasyWeather` software (version 1.4.x, 1.5.x), it is likely that the station will work with this Domoticz plugin!
+In general, if the station is supplied with `EasyWeather` software (version 1.4.x, 1.5.x), it is likely that the station will work with Home Assistant coupled with the MQTT server
 
 ### Tested
 
