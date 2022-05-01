@@ -55,19 +55,6 @@ json__dati_mqtt = "{}"
 sensori_dict_mqtt = json.loads(json__dati_mqtt)
 
 
-#crea def dove salva i dati in un file /tmp/Sensori_Meteo.txt
-def scrivi_dati_file(parametri, valori):
-
-    #se il file esiste già lo cancello
-    if os.path.isfile('/tmp/Sensori_Meteo.dbg'):
-        os.remove('/tmp/Sensori_Meteo.dbg')
-
-    f = open("/tmp/Sensori_Meteo.dbg", "w")
-    f.write(parametri + "=" + valori )
-
-    f.close()
-
-
 def OrderedDict(json_dati):
     return json.loads(json_dati, object_pairs_hook=OrderedDict)
 
@@ -111,7 +98,6 @@ def prepare_date_tx_mqtt_dati():
         client.connect(MQTT_SERVER, MQTT_PORT, 60)
         client.publish(MQTT_TOPIC, json__dati_mqtt)
 
-        scrivi_dati_file('Ultima_Volta',int(time.mktime(datetime.now().timetuple())).__str__())
 
     except:
         print("errore invio dati mqtt")
