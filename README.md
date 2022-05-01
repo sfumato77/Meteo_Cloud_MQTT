@@ -10,7 +10,6 @@ In general, if the station is supplied with `EasyWeather` software (version 1.4.
 ### Tested
 
 * Sainlogic WS3500
-* 
 
 
 ### WS View (WS Tool)
