@@ -46,3 +46,28 @@ Copy
 Station ID:XXXXXXXXXX
 Station Key:XXXXXXXX
 ### Attention TCP PORT 8077
+
+### Add  Home Assistant
+to add sensor data to Home Assistant 
+edit the file configuration.yaml 
+
+add in section sensor:
+
+<ul>
+   sensor:<br/>   
+     - platform: mqtt<br/></li>
+       name: "Temperatura Esterna"<br/>
+       state_topic: "Home/meteo/sensors"<br/>
+       value_template: "{{ value_json.tempf }}"<br/>
+       unit_of_measurement: '°F'<br/>
+       device_class: temperature<br/>
+      force_update: true<br/>
+</ul>
+
+
+it is possible to do for all parameters contained in parametri[]<br/>
+value_json.indoortempf<br/>
+value_json.tempf<br/>
+value_json.dewptf<br/>
+value_json.baromin ecc.. ecc...<br/>
+
