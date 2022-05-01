@@ -28,8 +28,8 @@ If supported by your PWS, connect your PWS with `WS View` (and also the 'older' 
 1. If you choose for `Wunderground` protocol:
     * Fill in `Station ID` with a value
     * Fill in `Station Key` with a value
-1. `Port` enter a free port number, eg. `5000`
-1. `Upload Interval`, leave it `60` seconds
+1. `Port` enter a free port number, eg. `8077`
+1. `Upload Interval`, leave it `16` seconds
 1. Click on `Save`
 
 
@@ -42,3 +42,4 @@ Register a new device on the site https://www.wunderground.com
 Copy
 Station ID:XXXXXXXXXX
 Station Key:XXXXXXXX
+### Attention TCP PORT 8077
