@@ -25,4 +25,4 @@ If supported by your PWS, connect your PWS with `WS View` (and also the 'older' 
 1. `Upload Interval`, leave it `60` seconds
 1. Click on `Save`
 
-![Screenshot](https://github.com/Xorfor/Domoticz-PWS-Plugin/tree/master/images/screendump2.png) ![Screenshot](/images/screendump3.png)
+![Screenshot]https://github.com/Xorfor/Domoticz-PWS-Plugin/blob/master/images/screendump2.png
