@@ -34,3 +34,11 @@ If supported by your PWS, connect your PWS with `WS View` (and also the 'older' 
 
 
 ![Screenshot](https://github.com/Xorfor/Domoticz-PWS-Plugin/blob/master/images/screendump3.png)  ![Screenshot](https://github.com/Xorfor/Domoticz-PWS-Plugin/blob/master/images/screendump2.png)
+
+
+
+### Init
+Register a new device on the site https://www.wunderground.com
+Copy
+Station ID:XXXXXXXXXX
+Station Key:XXXXXXXX
