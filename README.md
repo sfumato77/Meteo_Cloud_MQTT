@@ -1,6 +1,9 @@
 # Meteo_Cloud_MQTT
 NAT Sainlogic WS3500 wunderground do MQTT Server
 
+sends sensor data both to the site, www.wunderground.com, and to the local MQTT server
+
+
 ## Supported devices
 In general, if the station is supplied with `EasyWeather` software (version 1.4.x, 1.5.x), it is likely that the station will work with this Domoticz plugin!
 
