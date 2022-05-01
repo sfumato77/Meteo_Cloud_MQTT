@@ -54,11 +54,6 @@ sensori_dict = json.loads(json_dati)
 json__dati_mqtt = "{}"
 sensori_dict_mqtt = json.loads(json__dati_mqtt)
 
-
-def OrderedDict(json_dati):
-    return json.loads(json_dati, object_pairs_hook=OrderedDict)
-
-
 def prepare_date_tx_mqtt_dati():
 
     json__dati_mqtt = json.dumps(sensori_dict)
